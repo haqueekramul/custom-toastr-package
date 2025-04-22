@@ -1,0 +1,15 @@
+{
+    "name": "ekramul/custom-toastr",  // Package name
+    "description": "A customizable toastr package for Laravel",  // Short description of your package
+    "type": "library",  // Defines the type of package
+    "autoload": {
+        "psr-4": {
+            "Ekramul\\CustomToastr\\": "src/"  // Autoload the `Ekramul\CustomToastr` namespace from the `src/` folder
+        }
+    },
+    "require": {
+        "php": "^7.3|^8.0",  // Define PHP version compatibility
+        "illuminate/support": "^8.0|^9.0|^10.0"  // Specify the Laravel version compatibility
+    },
+    "license": "MIT"  // License type (you can change this based on your preference)
+}
